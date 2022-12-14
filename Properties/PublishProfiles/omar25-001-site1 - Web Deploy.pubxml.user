@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2022-11-18T14:26:29.6586618Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="connection">
+      <Value>Data Source=SQL8003.site4now.net%3bInitial Catalog=db_a8f8ca_ecommercegp%3bUser Id=db_a8f8ca_ecommercegp_admin%3bPassword=omar25%4012</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ECommerceGP.DAL.ApplicationDbcontext">
+      <Value>Data Source=SQL8003.site4now.net%3bInitial Catalog=db_a8f8ca_ecommercegp%3bUser Id=db_a8f8ca_ecommercegp_admin%3bPassword=omar25%4012</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
